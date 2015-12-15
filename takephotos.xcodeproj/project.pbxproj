@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59849FF1C1FA64A002FEB66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59849FE1C1FA64A002FEB66 /* main.m */; };
+		D5984A021C1FA64A002FEB66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A011C1FA64A002FEB66 /* AppDelegate.m */; };
+		D5984A051C1FA64A002FEB66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A041C1FA64A002FEB66 /* ViewController.m */; };
+		D5984A081C1FA64A002FEB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5984A061C1FA64A002FEB66 /* Main.storyboard */; };
+		D5984A0A1C1FA64A002FEB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5984A091C1FA64A002FEB66 /* Assets.xcassets */; };
+		D5984A0D1C1FA64A002FEB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5984A0B1C1FA64A002FEB66 /* LaunchScreen.storyboard */; };
+		D5984A181C1FA64A002FEB66 /* takephotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A171C1FA64A002FEB66 /* takephotosTests.m */; };
+		D5984A231C1FA64A002FEB66 /* takephotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A221C1FA64A002FEB66 /* takephotosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5984A141C1FA64A002FEB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59849F21C1FA64A002FEB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59849F91C1FA64A002FEB66;
+			remoteInfo = takephotos;
+		};
+		D5984A1F1C1FA64A002FEB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59849F21C1FA64A002FEB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59849F91C1FA64A002FEB66;
+			remoteInfo = takephotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59849FA1C1FA64A002FEB66 /* takephotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takephotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59849FE1C1FA64A002FEB66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5984A001C1FA64A002FEB66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5984A011C1FA64A002FEB66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5984A031C1FA64A002FEB66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5984A041C1FA64A002FEB66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5984A071C1FA64A002FEB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5984A091C1FA64A002FEB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5984A0C1C1FA64A002FEB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5984A0E1C1FA64A002FEB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5984A131C1FA64A002FEB66 /* takephotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takephotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5984A171C1FA64A002FEB66 /* takephotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = takephotosTests.m; sourceTree = "<group>"; };
+		D5984A191C1FA64A002FEB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5984A1E1C1FA64A002FEB66 /* takephotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takephotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5984A221C1FA64A002FEB66 /* takephotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = takephotosUITests.m; sourceTree = "<group>"; };
+		D5984A241C1FA64A002FEB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59849F71C1FA64A002FEB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5984A101C1FA64A002FEB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5984A1B1C1FA64A002FEB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59849F11C1FA64A002FEB66 = {
+			isa = PBXGroup;
+			children = (
+				D59849FC1C1FA64A002FEB66 /* takephotos */,
+				D5984A161C1FA64A002FEB66 /* takephotosTests */,
+				D5984A211C1FA64A002FEB66 /* takephotosUITests */,
+				D59849FB1C1FA64A002FEB66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59849FB1C1FA64A002FEB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59849FA1C1FA64A002FEB66 /* takephotos.app */,
+				D5984A131C1FA64A002FEB66 /* takephotosTests.xctest */,
+				D5984A1E1C1FA64A002FEB66 /* takephotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59849FC1C1FA64A002FEB66 /* takephotos */ = {
+			isa = PBXGroup;
+			children = (
+				D5984A001C1FA64A002FEB66 /* AppDelegate.h */,
+				D5984A011C1FA64A002FEB66 /* AppDelegate.m */,
+				D5984A031C1FA64A002FEB66 /* ViewController.h */,
+				D5984A041C1FA64A002FEB66 /* ViewController.m */,
+				D5984A061C1FA64A002FEB66 /* Main.storyboard */,
+				D5984A091C1FA64A002FEB66 /* Assets.xcassets */,
+				D5984A0B1C1FA64A002FEB66 /* LaunchScreen.storyboard */,
+				D5984A0E1C1FA64A002FEB66 /* Info.plist */,
+				D59849FD1C1FA64A002FEB66 /* Supporting Files */,
+			);
+			path = takephotos;
+			sourceTree = "<group>";
+		};
+		D59849FD1C1FA64A002FEB66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59849FE1C1FA64A002FEB66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5984A161C1FA64A002FEB66 /* takephotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5984A171C1FA64A002FEB66 /* takephotosTests.m */,
+				D5984A191C1FA64A002FEB66 /* Info.plist */,
+			);
+			path = takephotosTests;
+			sourceTree = "<group>";
+		};
+		D5984A211C1FA64A002FEB66 /* takephotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5984A221C1FA64A002FEB66 /* takephotosUITests.m */,
+				D5984A241C1FA64A002FEB66 /* Info.plist */,
+			);
+			path = takephotosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59849F91C1FA64A002FEB66 /* takephotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5984A271C1FA64A002FEB66 /* Build configuration list for PBXNativeTarget "takephotos" */;
+			buildPhases = (
+				D59849F61C1FA64A002FEB66 /* Sources */,
+				D59849F71C1FA64A002FEB66 /* Frameworks */,
+				D59849F81C1FA64A002FEB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = takephotos;
+			productName = takephotos;
+			productReference = D59849FA1C1FA64A002FEB66 /* takephotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5984A121C1FA64A002FEB66 /* takephotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5984A2A1C1FA64A002FEB66 /* Build configuration list for PBXNativeTarget "takephotosTests" */;
+			buildPhases = (
+				D5984A0F1C1FA64A002FEB66 /* Sources */,
+				D5984A101C1FA64A002FEB66 /* Frameworks */,
+				D5984A111C1FA64A002FEB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5984A151C1FA64A002FEB66 /* PBXTargetDependency */,
+			);
+			name = takephotosTests;
+			productName = takephotosTests;
+			productReference = D5984A131C1FA64A002FEB66 /* takephotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5984A1D1C1FA64A002FEB66 /* takephotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5984A2D1C1FA64A002FEB66 /* Build configuration list for PBXNativeTarget "takephotosUITests" */;
+			buildPhases = (
+				D5984A1A1C1FA64A002FEB66 /* Sources */,
+				D5984A1B1C1FA64A002FEB66 /* Frameworks */,
+				D5984A1C1C1FA64A002FEB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5984A201C1FA64A002FEB66 /* PBXTargetDependency */,
+			);
+			name = takephotosUITests;
+			productName = takephotosUITests;
+			productReference = D5984A1E1C1FA64A002FEB66 /* takephotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59849F21C1FA64A002FEB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kuailefu;
+				TargetAttributes = {
+					D59849F91C1FA64A002FEB66 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D5984A121C1FA64A002FEB66 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D59849F91C1FA64A002FEB66;
+					};
+					D5984A1D1C1FA64A002FEB66 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D59849F91C1FA64A002FEB66;
+					};
+				};
+			};
+			buildConfigurationList = D59849F51C1FA64A002FEB66 /* Build configuration list for PBXProject "takephotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59849F11C1FA64A002FEB66;
+			productRefGroup = D59849FB1C1FA64A002FEB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59849F91C1FA64A002FEB66 /* takephotos */,
+				D5984A121C1FA64A002FEB66 /* takephotosTests */,
+				D5984A1D1C1FA64A002FEB66 /* takephotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59849F81C1FA64A002FEB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5984A0D1C1FA64A002FEB66 /* LaunchScreen.storyboard in Resources */,
+				D5984A0A1C1FA64A002FEB66 /* Assets.xcassets in Resources */,
+				D5984A081C1FA64A002FEB66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5984A111C1FA64A002FEB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5984A1C1C1FA64A002FEB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59849F61C1FA64A002FEB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5984A051C1FA64A002FEB66 /* ViewController.m in Sources */,
+				D5984A021C1FA64A002FEB66 /* AppDelegate.m in Sources */,
+				D59849FF1C1FA64A002FEB66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5984A0F1C1FA64A002FEB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5984A181C1FA64A002FEB66 /* takephotosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5984A1A1C1FA64A002FEB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5984A231C1FA64A002FEB66 /* takephotosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5984A151C1FA64A002FEB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59849F91C1FA64A002FEB66 /* takephotos */;
+			targetProxy = D5984A141C1FA64A002FEB66 /* PBXContainerItemProxy */;
+		};
+		D5984A201C1FA64A002FEB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59849F91C1FA64A002FEB66 /* takephotos */;
+			targetProxy = D5984A1F1C1FA64A002FEB66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5984A061C1FA64A002FEB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5984A071C1FA64A002FEB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5984A0B1C1FA64A002FEB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5984A0C1C1FA64A002FEB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5984A251C1FA64A002FEB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5984A261C1FA64A002FEB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5984A281C1FA64A002FEB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = takephotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.takephotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5984A291C1FA64A002FEB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = takephotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.takephotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5984A2B1C1FA64A002FEB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = takephotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.takephotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takephotos.app/takephotos";
+			};
+			name = Debug;
+		};
+		D5984A2C1C1FA64A002FEB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = takephotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.takephotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takephotos.app/takephotos";
+			};
+			name = Release;
+		};
+		D5984A2E1C1FA64A002FEB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = takephotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.takephotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = takephotos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5984A2F1C1FA64A002FEB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = takephotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.takephotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = takephotos;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59849F51C1FA64A002FEB66 /* Build configuration list for PBXProject "takephotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5984A251C1FA64A002FEB66 /* Debug */,
+				D5984A261C1FA64A002FEB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5984A271C1FA64A002FEB66 /* Build configuration list for PBXNativeTarget "takephotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5984A281C1FA64A002FEB66 /* Debug */,
+				D5984A291C1FA64A002FEB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5984A2A1C1FA64A002FEB66 /* Build configuration list for PBXNativeTarget "takephotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5984A2B1C1FA64A002FEB66 /* Debug */,
+				D5984A2C1C1FA64A002FEB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5984A2D1C1FA64A002FEB66 /* Build configuration list for PBXNativeTarget "takephotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5984A2E1C1FA64A002FEB66 /* Debug */,
+				D5984A2F1C1FA64A002FEB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59849F21C1FA64A002FEB66 /* Project object */;
+}
