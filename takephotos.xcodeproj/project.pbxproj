@@ -15,6 +15,7 @@
 		D5984A0D1C1FA64A002FEB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5984A0B1C1FA64A002FEB66 /* LaunchScreen.storyboard */; };
 		D5984A181C1FA64A002FEB66 /* takephotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A171C1FA64A002FEB66 /* takephotosTests.m */; };
 		D5984A231C1FA64A002FEB66 /* takephotosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A221C1FA64A002FEB66 /* takephotosUITests.m */; };
+		D5984A331C1FA681002FEB66 /* FSMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D5984A321C1FA681002FEB66 /* FSMediaPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D5984A1E1C1FA64A002FEB66 /* takephotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takephotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5984A221C1FA64A002FEB66 /* takephotosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = takephotosUITests.m; sourceTree = "<group>"; };
 		D5984A241C1FA64A002FEB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5984A311C1FA681002FEB66 /* FSMediaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMediaPicker.h; sourceTree = "<group>"; };
+		D5984A321C1FA681002FEB66 /* FSMediaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMediaPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D59849FC1C1FA64A002FEB66 /* takephotos */ = {
 			isa = PBXGroup;
 			children = (
+				D5984A301C1FA681002FEB66 /* Classes */,
 				D5984A001C1FA64A002FEB66 /* AppDelegate.h */,
 				D5984A011C1FA64A002FEB66 /* AppDelegate.m */,
 				D5984A031C1FA64A002FEB66 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D5984A241C1FA64A002FEB66 /* Info.plist */,
 			);
 			path = takephotosUITests;
+			sourceTree = "<group>";
+		};
+		D5984A301C1FA681002FEB66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5984A311C1FA681002FEB66 /* FSMediaPicker.h */,
+				D5984A321C1FA681002FEB66 /* FSMediaPicker.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5984A051C1FA64A002FEB66 /* ViewController.m in Sources */,
+				D5984A331C1FA681002FEB66 /* FSMediaPicker.m in Sources */,
 				D5984A021C1FA64A002FEB66 /* AppDelegate.m in Sources */,
 				D59849FF1C1FA64A002FEB66 /* main.m in Sources */,
 			);
@@ -344,7 +358,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -366,6 +380,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0a653797-ac1b-41bc-aded-7625baed1fd1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +402,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -402,6 +417,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0a653797-ac1b-41bc-aded-7625baed1fd1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = takephotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = map.takephotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0a653797-ac1b-41bc-aded-7625baed1fd1";
 			};
 			name = Debug;
 		};
@@ -422,10 +440,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = takephotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = map.takephotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0a653797-ac1b-41bc-aded-7625baed1fd1";
 			};
 			name = Release;
 		};
